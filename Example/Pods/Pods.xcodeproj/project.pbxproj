@@ -141,6 +141,7 @@
 		9036E8F0B1CC2DFD3410F3767C202B60 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0549571E4BFC7BA8869F73D091555F9 /* KingfisherManager.swift */; };
 		918DC8B03F8ECD49B4730059134FC908 /* upsampling_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = 1993A027894C2827A10E4DE05F178D5F /* upsampling_neon.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		93DD0F782A46604D0C1DA36ADCBFD441 /* yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = FD021893B1973DA8344CEE969D8BCE15 /* yuv.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
+		94B7F10D225B219B0024FC47 /* JXCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B7F10C225B219B0024FC47 /* JXCollectionViewFlowLayout.swift */; };
 		95D48A356062C03FA5D2952A5C98AF63 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E13C475C6FA1C13CB36331FEFC7003 /* Box.swift */; };
 		9766CBC9B330732965B3FEBC746B96A6 /* msa_macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E70CE1C1DEF7C19890963C66F582532 /* msa_macro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97EF8C635946E446F5A694BC6E4B22F1 /* JXPhotoBrowserFadeTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AA848DD237259900548A18F44A56C /* JXPhotoBrowserFadeTransitioning.swift */; };
@@ -470,6 +471,7 @@
 		92888FC11732D84C0D7E56C2CB56C3F9 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
 		9354A57E5065A5680409CAA61E93FF29 /* alphai_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alphai_dec.h; path = src/dec/alphai_dec.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B7F10C225B219B0024FC47 /* JXCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		94E478B8837CCD0D69B28D0423129AF8 /* common_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common_dec.h; path = src/dec/common_dec.h; sourceTree = "<group>"; };
 		952468B693DFB1B0E3ACC88B82CB65E5 /* JXPhotoBrowserFadePresentingAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JXPhotoBrowserFadePresentingAnimator.swift; sourceTree = "<group>"; };
 		955F2F8094EDBC4C6864A7EB4CF5DB58 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
@@ -647,6 +649,7 @@
 				80DF00432F9307523963397CF76E1812 /* JXPhotoBrowser.swift */,
 				6181EFE1058CF37C1311D7108A2C4FF5 /* JXPhotoBrowserBaseCell.swift */,
 				B7A436C567269E54AC73799E408C0ECB /* JXPhotoBrowserBaseDelegate.swift */,
+				94B7F10C225B219B0024FC47 /* JXCollectionViewFlowLayout.swift */,
 				B17CC32628D2DB8F3560FD49F377AE39 /* Animator */,
 				52D915A2CB65328B5588E9DAE122953B /* Enhance */,
 				C5D2039ED04E72CBBBD5DECBB856BC04 /* Networking */,
@@ -1344,6 +1347,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -1369,6 +1373,7 @@
 				534B2437CB9C6220BE202F7971DA09A7 /* JXKingfisherLoader.swift in Sources */,
 				2C2A55CBEA2FB646BC6B02EED9EFA320 /* JXKingfisherWebPLoader.swift in Sources */,
 				9860586938B74587A7DBADC646D6D676 /* JXLocalDataSource.swift in Sources */,
+				94B7F10D225B219B0024FC47 /* JXCollectionViewFlowLayout.swift in Sources */,
 				87CA7A4B0B3BF98D8A1CE740B1805CC2 /* JXNamespace.swift in Sources */,
 				C775395F11BF18DB27B30CA061CE56BC /* JXNetworkingDataSource.swift in Sources */,
 				01B972F7DD057FC2FF2E35D85C22B9CD /* JXNumberPageControlDelegate.swift in Sources */,
